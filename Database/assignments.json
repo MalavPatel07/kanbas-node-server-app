@@ -1,0 +1,11 @@
+[
+  { "_id": "A101", "title": "Propulsion Assignment", "course": "RS101", "due": "2014-04-01","description":"This is description for propulsion Assignment","availableFromDate":"2014-03-01","availableUntilDate":"2014-05-01","points":100 },
+  { "_id": "A102", "title": "Combustion Analysis", "course": "RS101", "due": "2014-04-08","description":"This is description for Combustion Analysis","availableFromDate":"2014-03-01","availableUntilDate":"2014-05-01","points":100 },
+  { "_id": "A103", "title": "Nozzle Design Project", "course": "RS101", "due": "2014-04-15","description":"This is description for nozzle design project","availableFromDate":"2014-03-01","availableUntilDate":"2014-05-01","points":100 },
+  { "_id": "A201", "title": "Aerodynamics Quiz", "course": "RS102","due":"2014-04-08","description":"This is description for Aerodynamics Quiz","availableFromDate":"2014-03-01","availableUntilDate":"2014-05-01","points":100 },
+  { "_id": "A202", "title": "Flow Analysis", "course": "RS102","due":"2014-04-08","description":"This is description for Flow Analysis","availableFromDate":"2014-03-01","availableUntilDate":"2014-05-01","points":100 },
+  { "_id": "A203", "title": "Heating Analysis", "course": "RS102","due":"2014-04-08","description":"This is description for Heating Analysis","availableFromDate":"2014-03-01","availableUntilDate":"2014-05-01","points":100 },
+  { "_id": "A301", "title": "Structural Design Task", "course": "RS103","due":"2014-04-08","description":"This is description for Structural Design Task","availableFromDate":"2014-03-01","availableUntilDate":"2014-05-01","points":100 },
+  { "_id": "A302", "title": "Orbital Calculations", "course": "RS103","due":"2014-04-08","description":"This is description for Orbital Calculations","availableFromDate":"2014-03-01","availableUntilDate":"2014-05-01","points":100 },
+  { "_id": "A303", "title": "Systems Engineering Exam", "course": "RS103","due":"2014-04-08","description":"This is description for Systems Engineering Exam","availableFromDate":"2014-03-01","availableUntilDate":"2014-05-01","points":100 }
+]
