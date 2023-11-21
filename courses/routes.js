@@ -35,7 +35,8 @@ function CourseRoutes(app) {
     const { id } = req.params;
     const index = Database.courses.findIndex((course) => course._id === id);
     if (index === -1) {
-      res.status(404).send("Course not found");
+
+      res.status(404).json({ message: `Unable to find course with given id` });
       return;
     }
     Database.courses[index] = {

@@ -122,7 +122,7 @@ const Lab5 = (app) => {
     });
   
 
-      app.delete("/a5/todos/:id", (req, res) => {
+    app.delete("/a5/todos/:id", (req, res) => {
     const { id } = req.params;
     const todo = todos.find((t) => t.id === parseInt(id));
     if (!todo) {
@@ -148,16 +148,18 @@ const Lab5 = (app) => {
   });
 
 
-
-
-
-
     app.get("/a5/todos/:id/title/:title", (req, res) => {
       const { id, title } = req.params;
       const todo = todos.find((t) => t.id === parseInt(id));
+      if (!todo) {
+        res.status(404).json({message:`Unable to find todo with id ${id}`});
+        return;
+      }
       todo.title = title;
       res.json(todos);
     });
+
+
     app.get("/a5/todos/:id/completed/:newCompleted", (req, res) => {
       const { id, newCompleted } = req.params;
       const todo = todos.find((t) => t.id === parseInt(id));
