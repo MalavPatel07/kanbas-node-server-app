@@ -70,7 +70,7 @@ function UserRoutes(app) {
   };
 
   const account = (req, res) => {
-    console.log(req.session["currentUser"])
+    // console.log(req.session["currentUser"])
     res.json(presentUser);
   };
 
@@ -84,8 +84,8 @@ function UserRoutes(app) {
     const currentUser = await dao.createUser(req.body);
     req.session["currentUser"] = currentUser;
     presentUser = currentUser;
-    console.log(req.session)
-    console.log(currentUser)
+    // console.log(req.session)
+    // console.log(currentUser)
     res.json(currentUser);
   };
 
